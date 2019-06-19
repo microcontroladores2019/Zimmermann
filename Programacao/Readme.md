@@ -5,9 +5,9 @@ O programa atualmente está configurado para que um botão SW no PC15 ative o in
 ![Pinagem](pinagem.png)
 
 - SW (PC15): recebe o sinal para ativar o interrupt
-- LED_RED (PB5):
-- LED_YELLOW (PB6):
-- 
+- LED_RED (PB5): para teste de funcionamento do programa
+- LED_YELLOW (PB6): indica que ocorreu o interrupt (nao necessariamente que a comunicação SPI funcionou)
+
 
 ## Configuração do CLK
 ![Clock](clk.png)
